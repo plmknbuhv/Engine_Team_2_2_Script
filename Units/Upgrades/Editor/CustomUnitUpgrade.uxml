@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="Container" style="flex-grow: 1;">
+        <engine:DropdownField label="SkillType" name="TypeSelector" binding-path="targetSkill" />
+        <engine:EnumField label="UpgradeType" value="Center" type="Code.SkillSystem.SkillPerkUpgradeSO+UpgradeType, Assembly-CSharp" name="UpgradeType" binding-path="upgradeType" />
+        <engine:DropdownField label="TargetField" name="FieldList" binding-path="selectFieldName" />
+        <engine:IntegerField label="Integer Value" name="IntegerValue" binding-path="intValue" />
+        <engine:FloatField label="Float value" name="FloatValue" binding-path="floatValue" />
+    </engine:VisualElement>
+</engine:UXML>
